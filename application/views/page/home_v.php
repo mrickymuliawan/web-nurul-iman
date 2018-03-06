@@ -56,7 +56,7 @@
 </div><!-- /.container -->
 </section>	
 
-<section class="bg-primary text-white mb-5 py-5">
+<section class="bg-gradient text-white mb-5 py-5">
 <div class="container">
   <div class="row">
     <div class="col-md-8 mx-auto text-center">
@@ -115,7 +115,7 @@
       </div>
       
       <br />
-      <a href="<?=base_url("news")?>" class="btn btn-info float-right">Show All Kegiatan</a>
+      <a href="<?=base_url("news")?>" class="btn btn-info float-right hover-shadow">Show All Kegiatan</a>
     </div><!-- /.col-md-6 -->
     <div class="col-md-6">
       <h2 class="text-center">LATEST MATERI</h2>
@@ -130,7 +130,7 @@
         <?php } ?>
       </ul>
       <br />
-      <a href="<?=base_url("regulation")?>" class="btn btn-info float-right">Show All Materi</a>
+      <a href="<?=base_url("regulation")?>" class="btn btn-info float-right hover-shadow">Show All Materi</a>
     </div><!-- /.col-md-6 -->
   </div><!-- /.row -->
 </div><!-- /.container -->
@@ -141,20 +141,20 @@
   <h2 class="">PENDAFTARAN</h2>
   <!-- <p>Jobs Offer</p> -->
   <hr />
-  <div class="row">
+  <div class="row hover-shadow">
     <div class="col-md-6 p-4 bg-light text-dark">
       <h4><?= ucwords("siswa") ?></h4>
       <p class="text-muted">
         <?= "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" ?>
       </p>
-      <a href="<?=base_url("#")?>" class="btn btn-primary">Daftar</a>
+      <a href="<?=base_url("#")?>" class="btn btn-primary hover-shadow">Daftar</a>
     </div>
     <div class="col-md-6 p-4 bg-light text-dark">
       <h4><?= ucwords("pengajar") ?></h4>
       <p class="text-muted">
         <?= "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident" ?>
       </p>
-      <a href="<?=base_url("#")?>" class="btn btn-primary">Daftar</a>
+      <a href="<?=base_url("#")?>" class="btn btn-primary hover-shadow">Daftar</a>
     </div>
   </div>
 </div><!-- /.container -->

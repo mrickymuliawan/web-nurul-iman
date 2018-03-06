@@ -51,6 +51,6 @@ body{
 .bg-softorange{
 	background: #F5CBA7;
 }
-.bg-red{
-	background: #D35400;
+.bg-gradient{
+	background: linear-gradient(to bottom right, #007bff, #7986CB);
 }

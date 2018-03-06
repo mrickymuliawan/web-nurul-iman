@@ -35,9 +35,11 @@
     </div>
  
 
-	<nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top pl-5 mb-1 hover-shadow">
+	<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top pl-5 mb-1 hover-shadow">
    
-      <a class="navbar-brand text-white" href="<?= base_url('') ?>"><strong>Masjid Nurul Iman Srengseng</strong></a>
+      <a class="navbar-brand" href="<?= base_url('') ?>">
+      <strong class="text-primary">Masjid</strong> <span>Nurul Iman Srengseng</span>
+      </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -45,28 +47,28 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
-            <a class="nav-link text-white" href="<?= base_url('') ?>">Home</a>
+            <a class="nav-link " href="<?= base_url('') ?>">Home</a>
           </li>
            <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Daftar Siswa</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Daftar Siswa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Daftar Pengajar</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Daftar Pengajar</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Materi</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Materi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Galeri</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Galeri</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Tentang Kami</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Tentang Kami</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="<?= base_url('#') ?>">Kontak Kami</a>
+            <a class="nav-link " href="<?= base_url('#') ?>">Kontak Kami</a>
           </li>
           <li class="nav-item ml-2">
-            <a class="nav-link btn bg-white px-3 box-shadow" href="<?= base_url('admin') ?>">Login</a>
+            <a class="nav-link btn bg-primary text-white px-3 hover-shadow" href="<?= base_url('admin') ?>">Login</a>
           </li>
         </ul>
         
