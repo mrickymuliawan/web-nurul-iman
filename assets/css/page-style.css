@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+body{
+	font-family: 'raleway';
+}
+
+@media screen and (min-width: 300px) and (max-width: 800px)   {
+   .carousel-column{
+			height: 350px; 
+		}
+		.carousel-column img{
+			height: 100%; 
+		}
+}
+@media screen and (min-width: 1000px) {
+   .carousel-column{
+			height: 500px; 
+		}
+}
+
+@media screen and (min-width: 1600px) {
+   .carousel-column{
+			height: 650px; 
+		}
+}
+.carousel-caption{
+	background: rgba(0,0,0,0.4);
+	border-radius: 5px;
+	/*width: 100%;*/
+}
+.hover-shadow:hover{
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.1);
+	transition: 0.5s;
+}
+.hover-shadow img{
+	transition: 0.5s;
+}
+.hover-shadow:hover img{
+	filter:brightness(80%);
+}
+
+/* custom */
+
+.bg-softgreen{
+	background: #A9DFBF;
+}
+.bg-softorange{
+	background: #F5CBA7;
+}
+.bg-red{
+	background: #D35400;
+}

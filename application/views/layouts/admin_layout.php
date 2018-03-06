@@ -17,7 +17,7 @@
 				<link href="<?=base_url('assets/')?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 				<link href="<?=base_url('assets/')?>/css/icons.css" rel="stylesheet" type="text/css" />
 				<link href="<?=base_url('assets/')?>/css/metismenu.min.css" rel="stylesheet" type="text/css" />
-				<link href="<?=base_url('assets/')?>/css/style.css" rel="stylesheet" type="text/css" />
+				<link href="<?=base_url('assets/')?>/css/admin-style.css" rel="stylesheet" type="text/css" />
 
 				<!-- <script src="<?=base_url('assets/')?>/js/modernizr.min.js"></script> -->
 
