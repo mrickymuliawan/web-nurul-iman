@@ -17,17 +17,17 @@
 	<body>
 
 
-    <div class="container py-2">
+    <div class="container-fluid py-2 bg-primary">
       <div class="row">
-        <div class="col-md-8">
-          <a class="text-primary" href="<?= base_url('') ?>"> <span class="fa fa-envelope"></span> admin@nuruliman.co.id</a>
+        <div class="offset-md-1 col-md-7">
+          <a class="text-white" href="<?= base_url('') ?>"> <span class="fa fa-envelope"></span> admin@nuruliman.co.id</a>
         </div><!-- /.col-md-3 -->
         <!-- /.col-md-7 -->
-        <div class="offset-md-1 col-md-3 text-md-right">
-          <a class="mr-3 text-primary" href="<?= base_url('') ?>"> <span class="fa fa-facebook"></span></a>
+        <div class="offset-md-2 col-md-2 text-md-left">
+          <a class="mr-3 text-white" href="<?= base_url('') ?>"> <span class="fa fa-facebook"></span></a>
         
         
-          <a class="mr-3 text-primary" href="<?= base_url('') ?>"> <span class="fa fa-instagram"></span></a>
+          <a class="mr-3 text-white" href="<?= base_url('') ?>"> <span class="fa fa-instagram"></span></a>
        
         </div><!-- /.col-sm-2 -->
       </div><!-- /.row -->
@@ -83,7 +83,7 @@
   
   <?php $this->load->view("$view") ?>
 
-<section class="p-5 bg-light">
+<section class="p-5 mt-2 bg-light">
   <div class="container">
     <div class="row">
     	<div class="col-md-6">

@@ -54,3 +54,6 @@ body{
 .bg-gradient{
 	background: linear-gradient(to bottom right, #007bff, #7986CB);
 }
+.bg-gradient-2{
+	background: linear-gradient(to bottom right, #5bc0de, #0275d8);
+}

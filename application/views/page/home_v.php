@@ -50,7 +50,7 @@
       <h3>Lorem ipsum dolor sit amet</h3>
       <b>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</b>
       <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-      <a href="<?= base_url('about') ?>" class="btn btn-primary">Tentang Kami</a href="">
+      <a href="<?= base_url('about') ?>" class="btn btn-primary hover-shadow">Tentang Kami</a href="">
     </div>
   </div>
 </div><!-- /.container -->
@@ -73,7 +73,7 @@
   <div class="row">
 
     <?php for ($i=3; $i <= 5; $i++) { ?>
-    <div class="col-md-4">
+    <div class="col-md-4 mb-2">
       <div class="card hover-shadow">
         <a href="<?=base_url("#") ?>"> <img class="card-img-top" src="<?=base_url("assets/images/small/img-$i.jpg") ?>" alt="Card image cap"></a>
         <div class="card=block p-2">
@@ -136,7 +136,7 @@
 </div><!-- /.container -->
 </section>
 
-<section class="bg-info text-white p-5">
+<section class="bg-gradient-2 text-white p-5">
 <div class="container">
   <h2 class="">PENDAFTARAN</h2>
   <!-- <p>Jobs Offer</p> -->

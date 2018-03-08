@@ -1,0 +1,64 @@
+form absensi
+
+ustad
+-tanggal
+-status kehadiran
+*hadir
+*tdk hadir
+*izin
+*sakit
+-ustad pengganti
+*nama ustad 1
+*nama ustad 2
+
+
+absensi siswa
+-nama2 siswa
+>statusnya
+*hadir
+*tdk hadir
+*sakit
+*izin
+
+materi hari ini
+-jilid
+>statusnya
+*jilid 1
+*jilid 2
+*jilid 3
+-pelajaran ke-n
+-halaman
+-materi 1
+-materi 2
+-materi n
+-kendala
+
+
+
+
+=========================================================
+
+FORMULIR PENDAFTARAN PTTA NURUN IMAN SRENGSENG
+-alamat email
+-nama lengkap
+-jenis kelamin
+-nama wali (untuk anak)
+-tanggal lahir
+-no hp wa/sms
+-alamat tempat tinggal
+-kota
+-kecamatan
+-pekerjaan
+-keahlian
+-nomor darurat
+
+
+form pilih program pembelajaran
+program itu bisa milih lebih dari 1
+-program 1
+-program 2 
+-pertanyaan "apakah sebelumyna sudah pernah belajar di PTTA NURUL IMAN ?"
+-pertanyaan "apakah sebelumnya pernah belajar tahsin?"
+-pertanyaan "apakah sebelumnya pernah belajar bahasa arab?"
+-form soal pg
+-form soal lisan (upload suara ngaji)
